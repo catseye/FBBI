@@ -1,0 +1,18 @@
+v ; demonstration of fingerprints. ;
+  ; correct results should be: '0 1000 !' ;
+
+  ; normally M does nothing. ;
+
+>#vM'?,v
+v.<    <
+
+  ; but, in the context of ROMA: ;
+
+>"AMOR"4( >#vM  >.)v
+            >'?,^
+v                  <
+
+  ; and in overlapping contexts (NULL in ROMA): ;
+
+>"AMOR"4( "LLUN"4( >#vM'?,> ) ) @
+                     > '!,^

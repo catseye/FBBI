@@ -1,0 +1,16 @@
+>>>>>>>>>>551100"txt.f"ov
+abcdefghij              1
+bcdefghija              1
+cdefghijba              1
+defghijabc              0
+efghijabcd              "
+fghijabcde              t
+ghijabcdef              x
+hijabcdefg              t
+ijabcdefgh              .
+jabcdefghi              f
+abcdefghij              "
+vi                      <
+>000p>00g1g.00g1+:00p5a*-#v_@
+     ^                    <
+# Tests to see if reading a file in, binary-mode, actually works.

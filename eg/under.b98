@@ -1,0 +1,10 @@
+      12345  3{... 2u .. 2u .. 0} v
+v                               ,a<
+>  0{ 12345  3{... 2u .. 2u .. 0} v
+v                               ,a<
+>     24 02-u 0} 00g,   a,        @
+
+# Test for u and storage offset.  Should print:
+5 4 3 0 0 1 2 
+5 4 3 5 2 1 2 
+{

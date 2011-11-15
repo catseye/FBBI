@@ -1,0 +1,11 @@
+#/fbbi/dos/fbbi.exe -script /fbbi/eg/script.b98
+# Hey, check this out.
+# if you execute fbbi.exe with the -script option,
+# all the inital lines that begin with # are skipped
+# over.  They're *still* loaded into Funge-Space,
+# they're just not executed.
+vv            <
+# this one is, though.
+@<            
+v
+>a"!olleH"6k, ^
