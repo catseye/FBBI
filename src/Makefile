@@ -15,9 +15,9 @@ OBJECTS= \
 	fp/NULL.o  \
 	fp/ROMA.o  \
 
-all: fbbi
+all: $(BIN)
 
-fbbi: $(OBJECTS)
+$(BIN): $(OBJECTS)
 	$(CC) -o$(BIN) $(OBJECTS)
 
 strip: $(BIN)
