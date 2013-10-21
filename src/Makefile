@@ -1,7 +1,8 @@
 # Thanks to Sam Holden for providing the original version of this Makefile.
 
 CC?=gcc
-BIN?=../bin/fbbi
+BINDIR?=../bin
+BIN?=$(BINDIR)/fbbi
 DEBUGFLAGS?=
 #DEBUGFLAGS?=-DFBBI_DEBUG -DDEBUG_STACK
 CFLAGS?=-ansi -pedantic -g -Wall -O $(DEBUGFLAGS)
@@ -17,7 +18,10 @@ OBJECTS= \
 
 all: $(BIN)
 
-$(BIN): $(OBJECTS)
+$(BINDIR):
+	mkdir -p $(BINDIR)
+
+$(BIN): $(BINDIR) $(OBJECTS)
 	$(CC) -o$(BIN) $(OBJECTS)
 
 strip: $(BIN)
