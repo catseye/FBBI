@@ -38,8 +38,10 @@
 
 #ifndef _WIN32
   #ifndef __FreeBSD__
-    #ifndef __CYGWIN__
-      #include <values.h>
+    #ifndef __NetBSD__
+      #ifndef __CYGWIN__
+        #include <values.h>
+      #endif
     #endif
   #endif
 #endif
